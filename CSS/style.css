@@ -1,24 +1,39 @@
+/* Creacion de una variable */
+:root {
+    /* correcta manera de crear una variable */
+    --color: rgb(255, 255, 255);
+}
+
 body {
+    /* toma las especificaciones de la variable creada */
+    background: var(--color) ;
     margin: 0;
 }
 
-:root {
-    --color: red;
+
+/* Tambien podemos crear clases apartir de emojis,guion bajo,guion.  Pero no puede inciar con numero */
+.title {
+    background: rgb(12, 253, 113);
+    margin: 0px;
+    color: white;
 }
 
-body {
-    background: var(--color) ;
+/* Esto son mi clases creadas para concatenar mas rapido cuando necesite cambiar */
+.bold {
+    font-weight: bold;
 }
 
-h1 {
-    font-size: 1rem;
-    margin: 1;
-    font-size: normal;
-    color: var(--color);
-    background: chartreuse;
+.center {
+    text-align: center;
 }
 
-.contenido {
-    color: #fff;
+/* ################################################## */
+
+.description {
+    color: red;
 }
 
+/* Los ID sirven una vez, preferible para usarlo con javaScript */
+#parrafo {
+    color: chocolate;
+}

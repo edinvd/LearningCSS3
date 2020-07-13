@@ -1,0 +1,15 @@
+/* El selector universal coje a todos para aplicar las especificaciones */
+* {
+    color: red;
+}
+
+/* Aqui le indico que todo lo que se encuentre dentro del ul, No se muestre */
+ul * {
+    /* display sirve para bloquear vistas */
+    display: none;
+}
+/* Aqui especifico que solo el item 6 se muestre */
+.item6 {
+    /* el display block muestra algo especifico que queremos mostrar */
+    display: block;
+}
