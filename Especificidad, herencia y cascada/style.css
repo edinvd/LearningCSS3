@@ -1,0 +1,11 @@
+#main .post p {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+div#main .post p {
+    color: blue;
+}
