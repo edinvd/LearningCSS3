@@ -1,0 +1,40 @@
+[type="email"] {
+  border: 2px solid red;
+}
+
+[type="submit"] {
+  background: blue;
+  color: white;
+  border: 1px solid black;
+}
+
+[required] {
+  border: 2px solid lime;
+  margin: .5em;
+}
+
+a {
+  background: url() no-repeat center right / 2rem;
+  padding-right: 2.2rem;
+}
+
+[href^="/"],
+[href^="https://soyedin.com"] {
+  color: red;
+}
+
+[class*="button-"] {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: white;
+}
+
+.button-cta {
+    background: orange;
+}
+
+.button-alert {
+    background: red;
+}
