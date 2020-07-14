@@ -1,0 +1,42 @@
+:root {
+    --color-title: red;
+    --color-subtitle: blue;
+    --margin-top: -1.2em;
+}
+
+.title-1 {
+    color: red;
+}
+
+.title-2 {
+    color: blue;
+}
+
+.subtitle {
+    font-size: 1em;
+    margin-top: var(--margin-top);
+}
+
+.title-1 + .subtitle {
+    color: var(--color-title);
+}
+
+.title-2 + .subtitle {
+    color: var(--color-subtitle);
+}
+
+.hermano-mayor ~ .hermano {
+    background: yellow;
+}
+
+.enabled {
+    display: none;
+}
+
+.check:checked ~ .enabled {
+    display: block;
+}
+
+.check:checked ~ .disabled {
+    display: none;
+}
