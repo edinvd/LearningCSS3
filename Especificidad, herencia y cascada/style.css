@@ -1,11 +1,49 @@
-#main .post p {
+.normal {
+    font-size: 1em;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.small {
+    font-size: .75em;
+}
+
+.post-product  {
     color: red;
+    text-align: center;
 }
 
-p {
-    color: green;
-}
-
-div#main .post p {
+.product-description {
     color: blue;
+    text-align: center;
+}
+
+p.post-description-2 {
+    color: cyan;
+}
+
+.post-description-2 {
+    /* *important es que aquel que sera el primordial */
+    /* ?cuando usemos esto tenemos que porque? evitemos ya que es una malo habito */
+    color: lime !important;
+}
+
+div#main .post-2 .post-description-2 {
+    color: darkorange;
+}
+
+.holamundo {
+    color: red;
+    font-size: .5em;
+}
+
+span {
+    font-size: inherit;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
