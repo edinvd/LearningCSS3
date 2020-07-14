@@ -1,0 +1,15 @@
+.title {
+    color: aquamarine;
+}
+
+ul.list {
+    color: orangered;
+}
+
+li > ul {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+}
