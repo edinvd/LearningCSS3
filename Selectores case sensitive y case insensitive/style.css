@@ -1,0 +1,16 @@
+H1 {
+    color: red;
+}
+
+.title {
+    color: darkcyan;
+}
+
+/* Ejemplo Selectores agrupados */
+
+.subtitle,
+.subparrafo {
+    color: rgb(240, 36, 196);
+}
+
+
