@@ -1,1 +1,43 @@
 /* *Box Model */
+
+body {
+    margin: 0px;
+}
+h1 {
+    background: yellow;
+    display: inline;
+}
+
+p {
+    display: inline;
+    background: pink;
+}
+
+/* ?Tipos de display  */
+/* *(display: inline) es aquella que no crea lineas tras lineas, todo se coloca en una sola linea */
+/* *(display: block) es para bloquear su especificacion, lo que tiene se lo aplica bien */
+/* *(display: inline-block) es para crea de ambos permitirnos ubicar en una sola linea y permitiendo que mantenga sus espeficaciones */
+/* *(display: none) es para no mostrar */
+span {
+    background: yellow;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+
+.box {
+    background: yellow;
+    background-clip: content-box;
+    
+    /* *Esto es el BOX MODEL */
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border: 20px solid black;
+    margin: 0px;
+
+    /* * box-sizing */
+    box-sizing: border-box;
+}
+
+
