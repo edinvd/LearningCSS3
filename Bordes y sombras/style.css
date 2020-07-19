@@ -1,0 +1,103 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background: red;
+    margin: 100px auto;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style:solid;
+}
+
+.box-2 {
+    width: 400px;
+    height: 300px;
+    background: red;
+    color: blue;
+    margin: 100px auto;
+    border-width: 20px;
+    border-style: solid dotted dashed double;
+}
+
+.box-3 {
+    width: 400px;
+    height: 300px;
+    background: red;
+    color: blue;
+    margin: 100px auto;
+    border-width: 40px 80px 10PX 60PX;
+    border-color: orange green cyan pink;
+    border-style: solid double dotted dashed;
+}
+
+.box-4 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    background-color: transparent;
+    margin: 100px auto;
+    border-width: 150px;
+    border-color: transparent transparent transparent pink;
+    border-style: solid;
+}
+
+.box-5 {
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    margin: 100px auto;
+    border: 150px solid;
+    border-color: blue transparent transparent;
+    border-radius: 50%;
+
+}
+
+.box-6 {
+    width: 300px;
+    height: 300px;
+    background: purple;
+    margin: 100px auto;
+
+    /* *Es una de las formas pero no es tan especifico */
+    /* border-radius: 50px; */
+    /* ?Esta es la forma especifica */
+    /* border-top-left-radius: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 200px; */
+    /* *Esta es una forma en como resumir los cuatro lados en una sola linea */
+    /* border-radius: 45px  90px 10px 150px; */
+    /* ?Esta es otra forma donde tenemos aun mucho mas el cotrol de los lados, aqui podemos entrar en el eje x , y */
+    border-top-left-radius: 20px 200px;
+    /* todo: Recuerda tienes el control de los ejes (x,y) */
+    border-bottom-right-radius: 40px 300px;
+
+}
+
+.box-7 {
+    width: 500px;
+    height: 350px;
+    padding-top: 0.1px;
+    background: red;
+    margin: 100px auto;
+    border-top-left-radius: 80px 150px;
+    border-top-right-radius: 80px 150px;
+    border-bottom-right-radius: 70px 150px;
+    border-bottom-left-radius: 70px 150px;
+    
+
+}
+
+.play {
+    background: transparent;
+    border-style: solid;
+    border-width: 80px 95px 80px 150px;
+    margin-left: 185px;
+    margin-top: 100px;
+    border-color: transparent transparent transparent white;
+    
+}
